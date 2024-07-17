@@ -1,0 +1,16 @@
+  373  conda create -n thirdenv python=3.12
+  374  conda activate thirdenv
+  375  conda install numpy pandas
+  376  conda install numpy pandas
+  377  conda env export > thirdfile.yml
+  378  cat thirdfile.yml
+  379  git --version
+  380  git init
+  381  git add thirdfile.yml
+  382  git commit -m "adding thirdfile.yml into git"
+  383  git -u origin main
+  384  git push origin main
+  385  git remote add origin https://github.com/Shivanisanem/first.git
+  386  git remove remove origin
+  387  git remote remove origin
+  388  git remote add origin https://github.com/Shivanisanem/first.git
