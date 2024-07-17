@@ -1,0 +1,16 @@
+  328  conda env list\n
+  329  clear
+  330  ls -d */\n
+  331  clear
+  332  cd myproject
+  333  conda env -n secondenv
+  334  clear
+  335  cd myproject
+  336  cd myproject
+  337  conda create env -n secondenv
+  338  cd myproject
+  339  conda create -n secondenv python=3.8
+  340  conda activate secondenv
+  341  conda install numpy pandas
+  342  conda env export > secondfile.yml
+  343  cat secondfile.yml
